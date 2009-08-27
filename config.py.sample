@@ -1,0 +1,8 @@
+# directions:
+# - copy config.py.sample to config.py
+# - populate these fields w/ values provided by rackspace / admin
+
+name      = 'cloud user name'
+key       = 'cloud api key'
+container = 'cloud container name'
+

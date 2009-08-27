@@ -1,0 +1,4 @@
+cloud interaction utility
+
+requires rackspace cloudfiles: http://github.com/rackspace/python-cloudfiles/tree
+

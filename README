@@ -3,6 +3,8 @@ simple cloud interaction utility
 requirements:
  - python2.4
    http://www.python.org/download/releases/2.4/
+ - python hashlib module
+   http://code.krypto.org/python/hashlib/
  - rackspace's python-cloudfiles library
    http://github.com/rackspace/python-cloudfiles/tree
  - rackspace cloud account

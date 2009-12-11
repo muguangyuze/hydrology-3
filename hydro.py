@@ -36,10 +36,12 @@ def hydro(argv):
 
     hydro.checkConfig()
 
-    if task == 'list':
-
+    if task == 'list' or task == 'ls':
         if len(argv) == 2: hydro.listFiles()
         else:              hydro.listFiles(argv[2:])
+
+    elif task == 'lsc' or task == 'lscontainer':
+        hydro.list_containers()
 
     elif task == 'put':
         for put_file in argv[2:]:
